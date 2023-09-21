@@ -1,0 +1,87 @@
+
+
+body {
+    font-size: large;
+    line-height: 1;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+}
+
+.jumbotron {
+    background-color: white;
+    border-bottom: 15px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: black;
+    
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+}
+
+footer {
+    margin: 25px;
+}
+
+.event-text {
+    white-space: pre-wrap;
+    border: 1px dashed black;
+    background: transparent;
+}
+
+.hour-block {
+    text-align: right;
+    border-radius: 15px;
+    
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    margin-bottom: 3px;
+}
+
+.hour {
+    width: 100%;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.saveBtn {
+    background-color: rgb(17, 156, 211);
+    color: aliceblue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid black;
+
+}
+
+.past {
+    background-color: rgb(205, 203, 203);
+    color: grey;
+}
+  
+.present {
+    background-color: #ff6961;
+    color: black;
+}
+  
+.future {
+    background-color: #77dd77;
+    color: white;
+}
