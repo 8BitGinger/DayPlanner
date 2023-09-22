@@ -35,6 +35,7 @@ $(document).ready(function () {//wont start until page has been fully loaded
         //originally had the numbers assigned with dashes until I realized that was giving them a negativ value
         $(".hour-block").each(function () {
             var fixedHour = (parseInt($(this).attr("id").split("hour")[1]))
+            //this actually sets the local storage with event text linked to the value of the hour-block val we split above
             console.log( fixedHour, currentHour)
 
             //this definies how each class is applied
@@ -58,7 +59,7 @@ $(document).ready(function () {//wont start until page has been fully loaded
     hourTracker(); //re-run function
 })
 
-
+//This is where I can try out Dark/Light Mode functions for practice
 $( ".toggle" ).on("click", function() {
     if( $( "body" ).hasClass( "darkMode" )) {
         $( "body" ).removeClass( "darkMode" );

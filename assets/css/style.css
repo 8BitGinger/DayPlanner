@@ -99,6 +99,7 @@ footer {
 .hourDark {
     background-color: black;
     color: rgb(236, 236, 236);
+    
 }
 
 
@@ -107,6 +108,8 @@ footer {
     background-color: rgb(205, 203, 203);
     color: grey;
 }
+
+
   
 .present {
     background-color: #ff6961;
@@ -140,7 +143,7 @@ footer {
 
 .toggle:hover {
     scale: 1.1;
-    box-shadow: 0 0 10px 5px;
+    box-shadow: 0 0 5px 3px;
 }
 
 .toggleDark  {
